@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Label_Activities" xml:space="preserve">
+    <value>Aktiviteter</value>
+  </data>
+  <data name="Label_After" xml:space="preserve">
+    <value>efter</value>
+  </data>
+  <data name="Label_ATL" xml:space="preserve">
+    <value>ATL</value>
+  </data>
+  <data name="Label_Available" xml:space="preserve">
+    <value>Tillgängliga</value>
+  </data>
+  <data name="Label_Before" xml:space="preserve">
+    <value>före</value>
+  </data>
+  <data name="Label_BMI" xml:space="preserve">
+    <value>BMI</value>
+  </data>
+  <data name="Label_ChartDetails" xml:space="preserve">
+    <value>Diagram detaljer</value>
+  </data>
+  <data name="Label_CTL" xml:space="preserve">
+    <value>CTL</value>
+  </data>
+  <data name="Label_CTLATL" xml:space="preserve">
+    <value>CTL/ATL</value>
+  </data>
+  <data name="Label_CurrentTrainingStatus" xml:space="preserve">
+    <value>Nuvarande träningsstatus</value>
+  </data>
+  <data name="Label_CustomFields" xml:space="preserve">
+    <value>Anpassade datafält</value>
+  </data>
+  <data name="Label_Days" xml:space="preserve">
+    <value>dagar</value>
+  </data>
+  <data name="Label_DefaultChartZoom" xml:space="preserve">
+    <value>Förinställd zoom i diagram (dagar)</value>
+  </data>
+  <data name="Label_DynamicZones" xml:space="preserve">
+    <value>Dynamiska zonfaktorer</value>
+  </data>
+  <data name="Label_Epic" xml:space="preserve">
+    <value>Episk</value>
+  </data>
+  <data name="Label_Factor" xml:space="preserve">
+    <value>Faktor</value>
+  </data>
+  <data name="Label_Fatigue" xml:space="preserve">
+    <value>Uttröttning</value>
+  </data>
+  <data name="Label_FilterCharts" xml:space="preserve">
+    <value>Filtrera diagram</value>
+  </data>
+  <data name="Label_Fitness" xml:space="preserve">
+    <value>Form</value>
+  </data>
+  <data name="Label_ForecastCTLATLTSB" xml:space="preserve">
+    <value>Extrapolera CTL/ATL/TSB</value>
+  </data>
+  <data name="Label_FunctionalThresholdPower" xml:space="preserve">
+    <value>Funktionell effektgräns (FTP)</value>
+  </data>
+  <data name="Label_Future" xml:space="preserve">
+    <value>Framtid</value>
+  </data>
+  <data name="Label_High" xml:space="preserve">
+    <value>Hög</value>
+  </data>
+  <data name="Label_HRZones" xml:space="preserve">
+    <value>Pulszoner</value>
+  </data>
+  <data name="Label_InitialATL" xml:space="preserve">
+    <value>Initialt ATL</value>
+  </data>
+  <data name="Label_InitialCTL" xml:space="preserve">
+    <value>Initialt CTL</value>
+  </data>
+  <data name="Label_IntensityFactor" xml:space="preserve">
+    <value>Intensitetsfaktor</value>
+  </data>
+  <data name="Label_ListSettings" xml:space="preserve">
+    <value>Inställningar för tabell</value>
+  </data>
+  <data name="Label_Low" xml:space="preserve">
+    <value>Låg</value>
+  </data>
+  <data name="Label_MaxTrainingEffect" xml:space="preserve">
+    <value>Maximal träningseffekt</value>
+  </data>
+  <data name="Label_Medium" xml:space="preserve">
+    <value>Medel</value>
+  </data>
+  <data name="Label_NormPower" xml:space="preserve">
+    <value>Normaliserad effekt</value>
+  </data>
+  <data name="Label_Options" xml:space="preserve">
+    <value>Alternativ</value>
+  </data>
+  <data name="Label_Past" xml:space="preserve">
+    <value>Dåtid</value>
+  </data>
+  <data name="Label_Perf" xml:space="preserve">
+    <value>Prestation</value>
+  </data>
+  <data name="Label_DanielsPoints" xml:space="preserve">
+    <value>Daniels-poäng</value>
+  </data>
+  <data name="Label_Recalculate" xml:space="preserve">
+    <value>Beräkna</value>
+  </data>
+  <data name="Label_Reset" xml:space="preserve">
+    <value>Återställ till ursprungsvärden</value>
+  </data>
+  <data name="Label_ResetCategory" xml:space="preserve">
+    <value>Återställ kategori</value>
+  </data>
+  <data name="Label_RollingSum" xml:space="preserve">
+    <value>Glidande summa</value>
+  </data>
+  <data name="Label_SelectedCharts" xml:space="preserve">
+    <value>Valda diagram</value>
+  </data>
+  <data name="Label_SelectedColumns" xml:space="preserve">
+    <value>Valda kolumner</value>
+  </data>
+  <data name="Label_SetTargetDate" xml:space="preserve">
+    <value>Sätt måldatum</value>
+  </data>
+  <data name="Label_Settings" xml:space="preserve">
+    <value>Inställningar</value>
+  </data>
+  <data name="Label_SingleZone" xml:space="preserve">
+    <value>Enstaka zon</value>
+  </data>
+  <data name="Label_TaperDate" xml:space="preserve">
+    <value>Vilodatum</value>
+  </data>
+  <data name="Label_TargetDate" xml:space="preserve">
+    <value>Måldatum</value>
+  </data>
+  <data name="Label_TimeConstants" xml:space="preserve">
+    <value>Tidskonstanter</value>
+  </data>
+  <data name="Label_TrainingInfluence" xml:space="preserve">
+    <value>Träningsinflytande</value>
+  </data>
+  <data name="Label_TrainingLoad" xml:space="preserve">
+    <value>Träningslast</value>
+  </data>
+  <data name="Label_TrainingLoadChart" xml:space="preserve">
+    <value>Träningslast diagram</value>
+  </data>
+  <data name="Label_TrainingStressBalance" xml:space="preserve">
+    <value>Träningspåverkans balans</value>
+  </data>
+  <data name="Label_TrainingStressScore" xml:space="preserve">
+    <value>Träningspåverkan </value>
+  </data>
+  <data name="Text_MigrationAnnouncement" xml:space="preserve">
+    <value>Pluginet kommer flytta dina FTP inställningar till nya ST3 anpassade fält.
+Detta kommer flytta data från idrottare värde i '{0}' till ny 'FTPcycling' anpassat fält.
+Pluginet kommer inte fråga igen då loggboken sparats. Välj OK för fortsätta eller 
+Avbryt för att inte flytta data.</value>
+  </data>
+  <data name="ToolTip_ATL" xml:space="preserve">
+    <value>Intensiv träningslast (ATL)</value>
+  </data>
+  <data name="ToolTip_CTL" xml:space="preserve">
+    <value>Långvarig träningslast (CTL)</value>
+  </data>
+  <data name="ToolTip_DynamicZones" xml:space="preserve">
+    <value>Markerad: Använd statisk  pulszon definierad här för inställningar.
+Omarkerad: Använd beräknade zoner baserade på maxpuls och vilopuls vid aktivitetstillfället. 
+Då tas hänsyn till förändringar i vilo- och maxpuls ver tiden.</value>
+  </data>
+  <data name="ToolTip_FilterCharts" xml:space="preserve">
+    <value>Markerad: CTL &amp; ATLdata kommer också att filtreras med kategorifiltret.
+Omarkerad: Bara aktivitetslistan kommer att filtreras.</value>
+  </data>
+  <data name="ToolTip_Forecast" xml:space="preserve">
+    <value>Förutsäg CTL, ATL och TSB 7 dagar efter TSB topp.</value>
+  </data>
+  <data name="ToolTip_InitialATL" xml:space="preserve">
+    <value>Initialt ATL: Startvärde för glidande medelvärde.</value>
+  </data>
+  <data name="ToolTip_InitialCTL" xml:space="preserve">
+    <value>Initialt CTL: Startvärde för glidande medelvärde.</value>
+  </data>
+  <data name="ToolTip_ResetCategory" xml:space="preserve">
+    <value>Återställ pulszon faktorer till ursprungsvärden.</value>
+  </data>
+  <data name="ToolTip_RollingSum" xml:space="preserve">
+    <value>Används i "rullande summa" diagram</value>
+  </data>
+  <data name="ToolTip_SingleZone" xml:space="preserve">
+    <value>Markerad: Samtliga TSS beräkningar använder en och samma pulszon 
+(exempelvis en speciell TRIMP pulszon). Omarkerad: Använd zoner enligt 
+kategorier.</value>
+  </data>
+  <data name="ToolTip_SingleZone2" xml:space="preserve">
+    <value>Enstaka pulszon som används för all TRIMP beräkning.</value>
+  </data>
+  <data name="ToolTip_TCa" xml:space="preserve">
+    <value>ATL: Intensiv träningslast
+Motsvarar ett kortsiktigt flytande medelvärde för TRIMP.
+Rekommenderat värde ligger omkring 10-15 dagar.
+
+ATL benämns ofta 'utmattning'. Ett högt ATL värde kan indikera 
+att senaste tidens träning varit för hård så återhämtning behövs.</value>
+  </data>
+  <data name="ToolTip_TCc" xml:space="preserve">
+    <value>CTL: Långvarig träningslast.
+Ett glidande medelvärde på längre sikt av Trimp.  Den rekommenderade 
+inställningen ligger runt 45 dagar.
+
+CTL benämns ofta 'form'. CTL ändras sakta. Ökande CTL 
+brukar betyda att konditionen förbättras.</value>
+  </data>
+</root>

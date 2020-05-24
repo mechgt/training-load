@@ -1,0 +1,347 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Label_Activities" xml:space="preserve">
+    <value>Activités</value>
+  </data>
+  <data name="Label_After" xml:space="preserve">
+    <value>Après</value>
+  </data>
+  <data name="Label_ATL" xml:space="preserve">
+    <value>CAE</value>
+  </data>
+  <data name="Label_Available" xml:space="preserve">
+    <value>Disponible</value>
+  </data>
+  <data name="Label_Before" xml:space="preserve">
+    <value>Avant</value>
+  </data>
+  <data name="Label_BMI" xml:space="preserve">
+    <value>IMC</value>
+  </data>
+  <data name="Label_ChartDetails" xml:space="preserve">
+    <value>Détails des Graphiques</value>
+  </data>
+  <data name="Label_CTL" xml:space="preserve">
+    <value>CPE</value>
+  </data>
+  <data name="Label_CTLATL" xml:space="preserve">
+    <value>CPE/CAE</value>
+  </data>
+  <data name="Label_CurrentTrainingStatus" xml:space="preserve">
+    <value>Etat actuel de l'entrainement</value>
+  </data>
+  <data name="Label_CustomFields" xml:space="preserve">
+    <value>Champs de données personnalisées</value>
+  </data>
+  <data name="Label_Days" xml:space="preserve">
+    <value>Jours</value>
+  </data>
+  <data name="Label_DefaultChartZoom" xml:space="preserve">
+    <value>Zoom par défaut du graphique (jours)</value>
+  </data>
+  <data name="Label_DynamicZones" xml:space="preserve">
+    <value>Zones dynamiques</value>
+  </data>
+  <data name="Label_Epic" xml:space="preserve">
+    <value>Epic</value>
+  </data>
+  <data name="Label_Factor" xml:space="preserve">
+    <value>Facteur</value>
+  </data>
+  <data name="Label_Fatigue" xml:space="preserve">
+    <value>Fatigue</value>
+  </data>
+  <data name="Label_FilterCharts" xml:space="preserve">
+    <value>Filtres des Graphiques</value>
+  </data>
+  <data name="Label_Fitness" xml:space="preserve">
+    <value>Condition physique</value>
+  </data>
+  <data name="Label_ForecastCTLATLTSB" xml:space="preserve">
+    <value>Prévision CPE/CAE/BEE</value>
+  </data>
+  <data name="Label_FunctionalThresholdPower" xml:space="preserve">
+    <value>Seuil de puissance fonctionnel</value>
+  </data>
+  <data name="Label_Future" xml:space="preserve">
+    <value>Futur</value>
+  </data>
+  <data name="Label_High" xml:space="preserve">
+    <value>Haut</value>
+  </data>
+  <data name="Label_HRZones" xml:space="preserve">
+    <value>Zones de FC</value>
+  </data>
+  <data name="Label_InitialATL" xml:space="preserve">
+    <value>CAE initiale</value>
+  </data>
+  <data name="Label_InitialCTL" xml:space="preserve">
+    <value>CPE initiale</value>
+  </data>
+  <data name="Label_IntensityFactor" xml:space="preserve">
+    <value>Facteur d'intensité</value>
+  </data>
+  <data name="Label_ListSettings" xml:space="preserve">
+    <value>Configuration des Listes</value>
+  </data>
+  <data name="Label_Low" xml:space="preserve">
+    <value>Bas</value>
+  </data>
+  <data name="Label_MaxTrainingEffect" xml:space="preserve">
+    <value>Effet maximum de l'entrainement</value>
+  </data>
+  <data name="Label_Medium" xml:space="preserve">
+    <value>Moyen</value>
+  </data>
+  <data name="Label_NormPower" xml:space="preserve">
+    <value>Puissance norm.</value>
+  </data>
+  <data name="Label_Options" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="Label_Past" xml:space="preserve">
+    <value>Passé</value>
+  </data>
+  <data name="Label_Perf" xml:space="preserve">
+    <value>Performance</value>
+  </data>
+  <data name="Label_Recalculate" xml:space="preserve">
+    <value>Recalculer</value>
+  </data>
+  <data name="Label_Reset" xml:space="preserve">
+    <value>Restauration des valeurs par défaut</value>
+  </data>
+  <data name="Label_ResetCategory" xml:space="preserve">
+    <value>Restauration des catégories</value>
+  </data>
+  <data name="Label_RollingSum" xml:space="preserve">
+    <value>Somme glissante</value>
+  </data>
+  <data name="Label_SelectedCharts" xml:space="preserve">
+    <value>Sélection des Graphiques</value>
+  </data>
+  <data name="Label_SelectedColumns" xml:space="preserve">
+    <value>Sélection des Colonnes</value>
+  </data>
+  <data name="Label_SetTargetDate" xml:space="preserve">
+    <value>Fixer la date cible</value>
+  </data>
+  <data name="Label_Settings" xml:space="preserve">
+    <value>Réglages</value>
+  </data>
+  <data name="Label_SingleZone" xml:space="preserve">
+    <value>Zone unique</value>
+  </data>
+  <data name="Label_TaperDate" xml:space="preserve">
+    <value>Date d'affutage</value>
+  </data>
+  <data name="Label_TargetDate" xml:space="preserve">
+    <value>Date cible</value>
+  </data>
+  <data name="Label_TimeConstants" xml:space="preserve">
+    <value>Constantes de Temps</value>
+  </data>
+  <data name="Label_TrainingInfluence" xml:space="preserve">
+    <value>Impact de l'Entrainement</value>
+  </data>
+  <data name="Label_TrainingLoad" xml:space="preserve">
+    <value>Charge d'entrainement</value>
+  </data>
+  <data name="Label_TrainingLoadChart" xml:space="preserve">
+    <value>Graphique de la Charge de l'entrainement</value>
+  </data>
+  <data name="Label_TrainingStressBalance" xml:space="preserve">
+    <value>Balance de l'Effort du à l'Entrainement</value>
+  </data>
+  <data name="Label_TrainingStressScore" xml:space="preserve">
+    <value>Score d'effort d'entrainement</value>
+  </data>
+  <data name="Label_TRIMP" xml:space="preserve">
+    <value>TRIMP</value>
+  </data>
+  <data name="Label_TSB" xml:space="preserve">
+    <value>TSB</value>
+  </data>
+  <data name="Label_TSS" xml:space="preserve">
+    <value>TSS</value>
+  </data>
+  <data name="Text_MigrationAnnouncement" xml:space="preserve">
+    <value>Le plug-in Charge d'entraînement est sur le point de migrer vos paramètres FTP 
+aux nouveaux champs personnalisés de ST3.
+Cela déplacera les entrée de '{0}' donnée d'athlète vers une nouvelle configuration personnalisés 'FTPcycling'.
+Le plug-in Training Load ne vous le redemandera pas une fois que votre logbook est enregistré. 
+Cliquez sur OK pour poursuivre la migration, ou sur Annuler pour l'ignorer et de ne pas migrer vos données.</value>
+  </data>
+  <data name="ToolTip_ATL" xml:space="preserve">
+    <value>Charge Aigüe d'Entraînement.</value>
+  </data>
+  <data name="ToolTip_CTL" xml:space="preserve">
+    <value>Charge Permanente d'Entrainement</value>
+  </data>
+  <data name="ToolTip_DynamicZones" xml:space="preserve">
+    <value>Blanc : Utilise les zones de Fréquences cardiaques définies dans cette page. 
+Sélectionné: utilise les zones de FC calculées à partir de FC max et FC repos. 
+Les zones varient donc avec le temps.</value>
+  </data>
+  <data name="ToolTip_FilterCharts" xml:space="preserve">
+    <value>Sélectionné : les données CPE et CAE seront également filtrées en fonction des catégories</value>
+  </data>
+  <data name="ToolTip_Forecast" xml:space="preserve">
+    <value>Etend CPE, CAE et BEE 7 jours après le pic de BEE</value>
+  </data>
+  <data name="ToolTip_InitialATL" xml:space="preserve">
+    <value>Point initial pour la moyenne mobile CAE</value>
+  </data>
+  <data name="ToolTip_InitialCTL" xml:space="preserve">
+    <value>Point initial pour la moyenne mobile CPE</value>
+  </data>
+  <data name="ToolTip_ResetCategory" xml:space="preserve">
+    <value>Réinitialise les zones de FC aux valeurs par défaut</value>
+  </data>
+  <data name="ToolTip_RollingSum" xml:space="preserve">
+    <value>Utilisé dans le graphique 'Somme glissante'</value>
+  </data>
+  <data name="ToolTip_SingleZone" xml:space="preserve">
+    <value>Sélectionné : Tous les calculs TrImp utilisent une seule zone FC (par exemple 
+une zone définie par l'utilisateur)
+Blanc : les calculs utilisent les catégories et les facteurs.</value>
+  </data>
+  <data name="ToolTip_SingleZone2" xml:space="preserve">
+    <value>Sélectionné : Tous les calculs TrImp utilisent une seule zone FC (par exemple 
+une zone définie par l'utilisateur)</value>
+  </data>
+  <data name="ToolTip_TCa" xml:space="preserve">
+    <value>CAE : Charge Aigüe d'Entraînement. Similaire à une moyenne 
+mobile à court terme de TrImp. La periode constante recommandée 
+est de 10-15 jours. 
+
+CAE est souvent concidérée comme la "fatigue". Quand on s'entraîne, 
+on a besoin de récupérer. une haute CAE indique un gros volume 
+d'entraînement récent et peut indiquer un besoin de récupération.</value>
+  </data>
+  <data name="ToolTip_TCc" xml:space="preserve">
+    <value>CPE: Charge Permanente d'Entrainement. Similaire à une moyenne mobile à long 
+terme des scores Trimp. la période constante recommandée est d'environ 45 jours. 
+
+CPE est souvent considérée comme votre "condition physique". Vous devez travailler 
+plus longtemps et plus fort pour faire bouger votre CPE mais quand elle monte, cela 
+représente votre condition améliorée.</value>
+  </data>
+</root>

@@ -1,0 +1,349 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Label_Activities" xml:space="preserve">
+    <value>活動</value>
+  </data>
+  <data name="Label_After" xml:space="preserve">
+    <value>之後</value>
+  </data>
+  <data name="Label_ATL" xml:space="preserve">
+    <value>ATL</value>
+  </data>
+  <data name="Label_Available" xml:space="preserve">
+    <value>可用的</value>
+  </data>
+  <data name="Label_Before" xml:space="preserve">
+    <value>之前</value>
+  </data>
+  <data name="Label_BMI" xml:space="preserve">
+    <value>BMI</value>
+  </data>
+  <data name="Label_ChartDetails" xml:space="preserve">
+    <value>圖表詳情</value>
+  </data>
+  <data name="Label_CTL" xml:space="preserve">
+    <value>CTL</value>
+  </data>
+  <data name="Label_CTLATL" xml:space="preserve">
+    <value>CTL/ATL</value>
+  </data>
+  <data name="Label_CurrentTrainingStatus" xml:space="preserve">
+    <value>目前訓練狀態</value>
+  </data>
+  <data name="Label_CustomFields" xml:space="preserve">
+    <value>自訂資料欄位</value>
+  </data>
+  <data name="Label_Days" xml:space="preserve">
+    <value>天</value>
+  </data>
+  <data name="Label_DefaultChartZoom" xml:space="preserve">
+    <value>預設圖表縮放(天)</value>
+  </data>
+  <data name="Label_DynamicZones" xml:space="preserve">
+    <value>動態區間因子</value>
+  </data>
+  <data name="Label_Epic" xml:space="preserve">
+    <value>作品</value>
+  </data>
+  <data name="Label_Factor" xml:space="preserve">
+    <value>因子</value>
+  </data>
+  <data name="Label_Fatigue" xml:space="preserve">
+    <value>疲勞</value>
+  </data>
+  <data name="Label_FilterCharts" xml:space="preserve">
+    <value>篩選圖表</value>
+  </data>
+  <data name="Label_Fitness" xml:space="preserve">
+    <value>健康</value>
+  </data>
+  <data name="Label_ForecastCTLATLTSB" xml:space="preserve">
+    <value>預測 CTL/ATL/TSB</value>
+  </data>
+  <data name="Label_FunctionalThresholdPower" xml:space="preserve">
+    <value>函數功率</value>
+  </data>
+  <data name="Label_Future" xml:space="preserve">
+    <value>未來</value>
+  </data>
+  <data name="Label_High" xml:space="preserve">
+    <value>高</value>
+  </data>
+  <data name="Label_HRZones" xml:space="preserve">
+    <value>心率區間</value>
+  </data>
+  <data name="Label_InitialATL" xml:space="preserve">
+    <value>初始化 ATL</value>
+  </data>
+  <data name="Label_InitialCTL" xml:space="preserve">
+    <value>初始化 CTL</value>
+  </data>
+  <data name="Label_IntensityFactor" xml:space="preserve">
+    <value>強度因子</value>
+  </data>
+  <data name="Label_ListSettings" xml:space="preserve">
+    <value>清單設定</value>
+  </data>
+  <data name="Label_Low" xml:space="preserve">
+    <value>低</value>
+  </data>
+  <data name="Label_MaxTrainingEffect" xml:space="preserve">
+    <value>最大訓練效果</value>
+  </data>
+  <data name="Label_Medium" xml:space="preserve">
+    <value>中</value>
+  </data>
+  <data name="Label_NormPower" xml:space="preserve">
+    <value>正常功率</value>
+  </data>
+  <data name="Label_Options" xml:space="preserve">
+    <value>選項</value>
+  </data>
+  <data name="Label_Past" xml:space="preserve">
+    <value>過去</value>
+  </data>
+  <data name="Label_Perf" xml:space="preserve">
+    <value>表現</value>
+  </data>
+  <data name="Label_DanielsPoints" xml:space="preserve">
+    <value>Danials 分數</value>
+  </data>
+  <data name="Label_Recalculate" xml:space="preserve">
+    <value>重新計算</value>
+  </data>
+  <data name="Label_Reset" xml:space="preserve">
+    <value>重設為預設值...</value>
+  </data>
+  <data name="Label_ResetCategory" xml:space="preserve">
+    <value>重設分類</value>
+  </data>
+  <data name="Label_RollingSum" xml:space="preserve">
+    <value>行駛總合</value>
+  </data>
+  <data name="Label_SelectedCharts" xml:space="preserve">
+    <value>選擇的圖表</value>
+  </data>
+  <data name="Label_SelectedColumns" xml:space="preserve">
+    <value>選擇的欄位</value>
+  </data>
+  <data name="Label_SetTargetDate" xml:space="preserve">
+    <value>設定目標日期</value>
+  </data>
+  <data name="Label_Settings" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="Label_SingleZone" xml:space="preserve">
+    <value>單一區間</value>
+  </data>
+  <data name="Label_TaperDate" xml:space="preserve">
+    <value>減弱日期</value>
+  </data>
+  <data name="Label_TargetDate" xml:space="preserve">
+    <value>目標日期</value>
+  </data>
+  <data name="Label_TimeConstants" xml:space="preserve">
+    <value>時間常數</value>
+  </data>
+  <data name="Label_TrainingInfluence" xml:space="preserve">
+    <value>訓練作用</value>
+  </data>
+  <data name="Label_TrainingLoad" xml:space="preserve">
+    <value>Training Load</value>
+  </data>
+  <data name="Label_TrainingLoadChart" xml:space="preserve">
+    <value>訓練負載圖表</value>
+  </data>
+  <data name="Label_TrainingStressBalance" xml:space="preserve">
+    <value>訓練張力平衡</value>
+  </data>
+  <data name="Label_TrainingStressScore" xml:space="preserve">
+    <value>訓練張力分數</value>
+  </data>
+  <data name="Label_TRIMP" xml:space="preserve">
+    <value>訓練動力</value>
+  </data>
+  <data name="Label_TSB" xml:space="preserve">
+    <value>TSB</value>
+  </data>
+  <data name="Label_TSS" xml:space="preserve">
+    <value>TSS</value>
+  </data>
+  <data name="Text_MigrationAnnouncement" xml:space="preserve">
+    <value>Training Load 將要整合您的函數功率 (FTP) 至 ST3 的自訂欄位中。
+這會從 '{0}' 運動員資料搬移內容至新的 'FTPcycling' 自訂參數。
+Training Load 將不會於儲存日誌時再次詢問。按『確定』繼續整合，
+或『取消』略過此步驟。</value>
+  </data>
+  <data name="ToolTip_ATL" xml:space="preserve">
+    <value>激烈訓練負載</value>
+  </data>
+  <data name="ToolTip_CTL" xml:space="preserve">
+    <value>常態訓練負載</value>
+  </data>
+  <data name="ToolTip_DynamicZones" xml:space="preserve">
+    <value>不勾選：使用設定頁面中定義的靜態心率區間因子。
+勾選：使用依據活動過程中的最大心率，休息心率所計算出來的區間。
+這將會因為活動持續進行而不斷變動。</value>
+  </data>
+  <data name="ToolTip_FilterCharts" xml:space="preserve">
+    <value>勾選：CTL 和 ATL 的資料亦會被分類篩選器所篩選。
+不勾選：只有活動清單會被篩選。
+</value>
+  </data>
+  <data name="ToolTip_Forecast" xml:space="preserve">
+    <value>於 TSB 高峰過後延伸 CTL, ATL, 及 TSB 七天的資料。</value>
+  </data>
+  <data name="ToolTip_InitialATL" xml:space="preserve">
+    <value>ATL 移動平均值的開始點</value>
+  </data>
+  <data name="ToolTip_InitialCTL" xml:space="preserve">
+    <value>CTL 移動平均值的開始點</value>
+  </data>
+  <data name="ToolTip_ResetCategory" xml:space="preserve">
+    <value>重設心率區間因子為預設值。</value>
+  </data>
+  <data name="ToolTip_RollingSum" xml:space="preserve">
+    <value>用於『行駛總合』圖表中</value>
+  </data>
+  <data name="ToolTip_SingleZone" xml:space="preserve">
+    <value>勾選：所有訓練動力的計算將使用單一心率區間（像是自訂訓練動力心率區間）。
+不勾選：使用活動分類和因子來計算。
+</value>
+  </data>
+  <data name="ToolTip_SingleZone2" xml:space="preserve">
+    <value>用於所有活動訓練動力計算的單一心率區間。</value>
+  </data>
+  <data name="ToolTip_TCa" xml:space="preserve">
+    <value>ATL：激烈訓練負載
+類似是您的訓練動力分數移動平均值的縮寫。
+建議的時間常數設定值大約為十至十五天。
+
+ATL 通常代表您的『疲勞程度』。在訓練期間，您需要恢復期。
+較高的 ATL 表示最近的訓練量太多，也許需要一些休息。</value>
+  </data>
+  <data name="ToolTip_TCc" xml:space="preserve">
+    <value>CTL：常態訓練負載
+類似是長時間計算您的訓練動力分數的移動平均值。
+建議的時間常數設定值大約為四十五天。
+
+CTL 通常代表您的『健康程度』。要改變 CTL，您必須努力運動並持之以恆，
+因為它的變化很緩慢，一旦當它向上爬升，表示您的身體狀況有進步。</value>
+  </data>
+</root>
