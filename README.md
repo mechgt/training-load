@@ -6,6 +6,8 @@ Use this plugin to track your fitness, target race day, and avoid overtraining b
 
 This software was open-sourced after SportTracks desktop was discontinued, and all restrictions have been removed.
 
+Compiled plugin files are available under [Releases](https://github.com/mechgt/training-load/releases).
+
 ![tl_main](https://mechgt.com/st/images/tl_main.png)
 
 ### Getting Started
